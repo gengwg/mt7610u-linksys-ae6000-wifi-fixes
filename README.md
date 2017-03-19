@@ -1,4 +1,15 @@
 # mt7610u-linksys-ae6000-wifi-fixes
+
+This currently works on my Centos 7 with kernel:
+
+    Linux 3.10.0-327.36.3.el7.x86_64 #1 SMP Mon Oct 24 16:09:20 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+
+Install:
+
+    - make clean
+    - make
+    - sudo make install
+
 Trying to fix the MT7610U chipset driver by MediaTek so it's usable on modern Linux kernels and with nl80211/NetworkManager (and not completely breaking on old ones, maybe...).
 
 Based on the driver from the HPRATH site (thank you!)
